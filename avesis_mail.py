@@ -25,7 +25,7 @@ def send_mail(message_to, message_body):
 
 
     address = "lighthouse.avesis@gmail.com"
-    password = "avesis_ytu"
+    password = "password"
     try:
         
         mail = smtplib.SMTP("smtp.gmail.com",587)
